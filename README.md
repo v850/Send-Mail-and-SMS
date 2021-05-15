@@ -18,6 +18,8 @@ pip install csv
 
 run command in command prompt so it acts as server to send and recieve Emails.
 
+Assuming mail server runs on localhost on port 1025
+
 ``
 python -m smtpd -c DebuggingServer -n localhost:1025
 ``
